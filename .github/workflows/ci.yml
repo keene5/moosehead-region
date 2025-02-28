@@ -10,7 +10,7 @@ jobs:
   test:
     runs-on: ubuntu-latest
     env:
-      MY_SECRET: ${{ secrets.MY_SECRET }}  
+      MY_SECRET: ${{ secrets.mySecret }}  
 
     steps:
     - name: Checkout code
